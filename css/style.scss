@@ -1,3 +1,7 @@
+$primaryColor: red;
+$secondaryColor: blue;
+$thirdColor: green;
+
 * {
     padding: 0;
     border: 0;
@@ -19,19 +23,19 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: red;
+    background: $primaryColor;
 }
 
 .two {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: blue;
+    background: $secondaryColor;
 }
 
 .three {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: green;
+    background: $thirdColor;
 }
