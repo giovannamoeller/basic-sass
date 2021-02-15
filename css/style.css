@@ -28,6 +28,16 @@ body {
   background: red;
 }
 
+.one a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.one:hover {
+  /* This & references to .one */
+  background: green;
+}
+
 .two {
   width: 200px;
   height: 200px;

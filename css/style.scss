@@ -24,6 +24,16 @@ body {
     height: 200px;
     border-radius: 50%;
     background: $primaryColor;
+    
+    a {
+        color: wheat;
+        text-decoration: none;
+    }
+
+    &:hover {
+        /* This & references to .one */
+        background: $thirdColor;
+    }
 }
 
 .two {
