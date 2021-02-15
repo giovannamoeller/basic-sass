@@ -1,6 +1,4 @@
-$primaryColor: red;
-$secondaryColor: blue;
-$thirdColor: green;
+@import './variables';
 
 @mixin flexCenter($justify_content, $flex_direction) {
     display: flex;
